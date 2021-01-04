@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_chats">
+
+    <fragment
+        android:id="@+id/navigation_chats"
+        android:name="com.epam.messagelocal.ui.chats.ChatsFragment"
+        android:label="@string/title_chats"
+        tools:layout="@layout/fragment_chats">
+        <action
+            android:id="@+id/action_navigation_chats_to_messagesFragment"
+            app:destination="@id/navigation_messages"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.epam.messagelocal.ui.search.SearchUsersFragment"
+        android:label="@string/title_search"
+        tools:layout="@layout/fragment_search" >
+        <action
+            android:id="@+id/action_navigation_search_to_navigation_messages"
+            app:destination="@id/navigation_messages" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_messages"
+        android:name="com.epam.messagelocal.ui.messages.MessagesFragment"
+        tools:layout="@layout/fragment_messages">
+        <argument
+            android:name="chatId"
+            app:argType="string" />
+    </fragment>
+    <activity
+        android:id="@+id/nav_login"
+        android:name="com.epam.messagelocal.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+    <activity
+        android:id="@+id/nav_main"
+        android:name="com.epam.messagelocal.MainActivity"
+        android:label="MainActivity" />
+
+
+</navigation>

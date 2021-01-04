@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="small_margin_from_edge">8dp</dimen>
+    <dimen name="chat_image_size">56dp</dimen>
+    <dimen name="progress_bar_size">56dp</dimen>
+    <dimen name="small_icon_size">32dp</dimen>
+    <dimen name="medium_text_size">20dp</dimen>
+</resources>

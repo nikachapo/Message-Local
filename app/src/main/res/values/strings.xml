@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Message Local</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_chats">Chats</string>
+    <string name="title_search">Search</string>
+    <string name="no_messages">No messages found</string>
+    <string name="type">Type...</string>
+    <string name="search_friend">Search friend</string>
+    <string name="enter_name">Enter name please</string>
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1023905222554",
+    "project_id": "message-local-c1d54",
+    "storage_bucket": "message-local-c1d54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023905222554:android:d49fb7ac46e8435f99b423",
+        "android_client_info": {
+          "package_name": "com.epam.messagelocal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023905222554-tp1venak2a9bkbo197m5l2rlh303bu4u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.epam.messagelocal",
+            "certificate_hash": "0f365443ce83b5033bbe9d71a62bc5580407779d"
+          }
+        },
+        {
+          "client_id": "1023905222554-057ilon4bj5dh5d5ds075joivla123if.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDt7i7jU4-R7EqEuuqt-EzdI1sqVE8ZA6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023905222554-057ilon4bj5dh5d5ds075joivla123if.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
